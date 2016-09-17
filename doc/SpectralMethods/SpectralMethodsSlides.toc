@@ -1,0 +1,13 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{Function representation}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Cardinal Functions}{4}{0}{1}
+\beamer@subsectionintoc {1}{2}{Differentiation Matrices}{6}{0}{1}
+\beamer@sectionintoc {2}{Orthogonal Polynomials}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Hermite}{9}{0}{2}
+\beamer@subsectionintoc {2}{2}{Laguerre}{10}{0}{2}
+\beamer@sectionintoc {3}{Ordinary Differential Equations}{11}{0}{3}
+\beamer@subsectionintoc {3}{1}{Boundary Value Problems}{12}{0}{3}
+\beamer@subsectionintoc {3}{2}{Eigenvalue problems}{12}{0}{3}
+\beamer@sectionintoc {4}{Partial Differential Equations}{12}{0}{4}
+\beamer@subsectionintoc {4}{1}{Elliptic Differential Equations}{13}{0}{4}
+\beamer@subsectionintoc {4}{2}{Parabolic Differential Equations}{13}{0}{4}
