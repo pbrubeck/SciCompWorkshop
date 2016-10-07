@@ -1,0 +1,12 @@
+\begin{thebibliography}{1}
+
+\bibitem{nr}
+W.~H. Press, {\em Numerical Recipes}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{Trefethen}
+L.~N. Trefethen, {\em Spectral Methods in MATLAB (Software, Environments,
+  Tools)}.
+\newblock SIAM: Society for Industrial and Applied Mathematics, 2001.
+
+\end{thebibliography}
