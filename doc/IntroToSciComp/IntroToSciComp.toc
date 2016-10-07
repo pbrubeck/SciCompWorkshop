@@ -1,8 +1,0 @@
-\beamer@endinputifotherversion {3.36pt}
-\beamer@sectionintoc {1}{The Big Picture}{3}{0}{1}
-\beamer@sectionintoc {2}{Tools and Environments}{7}{0}{2}
-\beamer@subsectionintoc {2}{1}{Methodology}{8}{0}{2}
-\beamer@subsectionintoc {2}{2}{Which language should I use?}{9}{0}{2}
-\beamer@subsectionintoc {2}{3}{Best practices}{11}{0}{2}
-\beamer@subsectionintoc {2}{4}{Libraries}{13}{0}{2}
-\beamer@sectionintoc {3}{Bondary Value Problems}{16}{0}{3}
