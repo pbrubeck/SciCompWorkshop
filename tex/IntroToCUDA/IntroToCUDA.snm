@@ -1,0 +1,7 @@
+\beamer@slide {fig:cray}{20}
+\beamer@slide {fig:corei7}{23}
+\beamer@slide {fig:titan}{26}
+\beamer@slide {fig:cpugpu}{29}
+\beamer@slide {fig:thrust}{51}
+\beamer@slide {fig:threads}{53}
+\beamer@slide {fig:memory}{60}

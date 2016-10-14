@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  7 OCT 2016 08:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.7.8)  11 OCT 2016 22:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -698,7 +698,8 @@ Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemede
 fault.sty
 Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
-))) (/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
+))) (../common/scicomp.sty
+(/usr/share/texlive/texmf-dist/tex/latex/was/upgreek.sty
 Package: upgreek 2003/02/12 v2.0 (WaS)
 Package upgreek Info: Using Euler Roman for upright Greek on input line 31.
 \symugrf@m=\mathgroup6
@@ -821,10 +822,7 @@ Package caption Info: Hyperref support is turned off
 )
 \c@subfigure=\count155
 \c@subtable=\count156
-) (./mcode.sty
-Package: `mcode' 1.2 <2005/11/17>
-Package: mcode 2005/11/17 1.2
-mcode: settings optimized for display!
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count157
 \lst@gtempboxa=\box55
@@ -850,29 +848,37 @@ File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
 )
-(./PoissonSolver.aux)
+(../common/mcode.sty
+Package: `mcode' 1.2 <2005/11/17>
+
+LaTeX Warning: You have requested package `../common/mcode',
+               but the package provides `mcode'.
+
+Package: mcode 2005/11/17 1.2
+mcode: settings optimized for display!
+) (./PoissonSolver.aux)
 \openout1 = `PoissonSolver.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 54.
-LaTeX Font Info:    ... okay on input line 54.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    ... okay on input line 29.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -938,7 +944,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box58
-Package hyperref Info: Link coloring OFF on input line 54.
+Package hyperref Info: Link coloring OFF on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -948,56 +954,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count171
 )
-LaTeX Info: Redefining \ref on input line 54.
-LaTeX Info: Redefining \pageref on input line 54.
-LaTeX Info: Redefining \nameref on input line 54.
+LaTeX Info: Redefining \ref on input line 29.
+LaTeX Info: Redefining \pageref on input line 29.
+LaTeX Info: Redefining \nameref on input line 29.
 
 (./PoissonSolver.out) (./PoissonSolver.out)
 \@outlinefile=\write5
 \openout5 = `PoissonSolver.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 54.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 54.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 54.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 54.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 54.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 54.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 29.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 54.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 29.
 
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/translator/dicts/translator-bas
 ic-dictionary/translator-basic-dictionary-English.dict
@@ -1023,18 +1029,18 @@ Dictionary: translator-numbers-dictionary, Language: English
 orem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 54.
+LaTeX Info: Redefining \includegraphics on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \c@lstlisting=\count172
 
 (./PoissonSolver.nav)
-LaTeX Font Info:    Try loading font information for U+msa on input line 58.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 58.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1046,7 +1052,7 @@ Package epstopdf Info: Source file: <Figures/SPIELogo.eps>
 (epstopdf)                    size: 22450 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/SPIELogo-eps-conve
 rted-to.pdf Figures/SPIELogo.eps>
-(epstopdf)             \includegraphics on input line 58.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
 <Figures/SPIELogo-eps-converted-to.pdf, id=25, 1264.725pt x 424.58624pt>
@@ -1054,24 +1060,45 @@ File: Figures/SPIELogo-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/SPIELogo-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/SPIELogo-eps-converted-to.pdf used on input li
-ne 58.
-(pdftex.def)             Requested size: 85.35826pt x 28.65509pt.
+ne 33.
+(pdftex.def)             Requested size: 80.1644pt x 26.91629pt.
+Package epstopdf Info: Source file: <Figures/OSALogo.eps>
+(epstopdf)                    date: 2016-10-11 22:06:11
+(epstopdf)                    size: 29767 bytes
+(epstopdf)             Output file: <Figures/OSALogo-eps-converted-to.pdf>
+(epstopdf)             Command: <repstopdf --outfile=Figures/OSALogo-eps-conver
+ted-to.pdf Figures/OSALogo.eps>
+(epstopdf)             \includegraphics on input line 33.
+runsystem(repstopdf --outfile=Figures/OSALogo-eps-converted-to.pdf Figures/OSAL
+ogo.eps)...executed safely (allowed).
+
+Package epstopdf Info: Result file: <Figures/OSALogo-eps-converted-to.pdf>
+(epstopdf)                    date: 2016-10-11 22:13:57
+(epstopdf)                    size: 13986 bytes.
+
+<Figures/OSALogo-eps-converted-to.pdf, id=26, 1914.15125pt x 430.60875pt>
+File: Figures/OSALogo-eps-converted-to.pdf Graphic file (type pdf)
+
+<use Figures/OSALogo-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/OSALogo-eps-converted-to.pdf used on input lin
+e 33.
+(pdftex.def)             Requested size: 119.63416pt x 26.91629pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 58.
+(Font)              size <5> substituted on input line 33.
 
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Figures/SPIELogo-eps-con
-verted-to.pdf>] (./PoissonSolver.toc) [2
+verted-to.pdf> <./Figures/OSALogo-eps-converted-to.pdf>] (./PoissonSolver.toc) 
+[2
 
 ] (./PoissonSolver.toc) [3
 
 ] [4
 
-]
-[5
+] [5
 
 ] [6
 
@@ -1089,12 +1116,12 @@ verted-to.pdf>] (./PoissonSolver.toc) [2
 
 ] [13
 
-] (./PoissonSolver.toc) [14
+]
+(./PoissonSolver.toc) [14
 
 ] [15
 
-]
-[16
+] [16
 
 ] [17
 
@@ -1112,15 +1139,15 @@ Package epstopdf Info: Source file: <Figures/CardinalChebyshev.eps>
 (epstopdf)                    size: 89083 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/CardinalChebyshev-
 eps-converted-to.pdf Figures/CardinalChebyshev.eps>
-(epstopdf)             \includegraphics on input line 149.
+(epstopdf)             \includegraphics on input line 124.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/CardinalChebyshev-eps-converted-to.pdf, id=543, 430.60875pt x 263.9862
+<Figures/CardinalChebyshev-eps-converted-to.pdf, id=550, 430.60875pt x 263.9862
 5pt>
 File: Figures/CardinalChebyshev-eps-converted-to.pdf Graphic file (type pdf)
  <use Figures/CardinalChebyshev-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/CardinalChebyshev-eps-converted-to.pdf used on
- input line 149.
+ input line 124.
 (pdftex.def)             Requested size: 307.28987pt x 188.39023pt.
  [20
 
@@ -1131,21 +1158,21 @@ Package pdftex.def Info: Figures/CardinalChebyshev-eps-converted-to.pdf used on
 ] [23
 
 ]
-Overfull \hbox (12.85217pt too wide) detected at line 193
+Overfull \hbox (12.85217pt too wide) detected at line 168
 [] [] \OT1/cmss/m/n/10.95 = [][] + [][] + [][] = []
  []
 
 [24
 
 ]
-Overfull \hbox (12.85217pt too wide) detected at line 193
+Overfull \hbox (12.85217pt too wide) detected at line 168
 [] [] \OT1/cmss/m/n/10.95 = [][] + [][] + [][] = []
  []
 
 [25
 
 ]
-Overfull \hbox (12.85217pt too wide) detected at line 193
+Overfull \hbox (12.85217pt too wide) detected at line 168
 [] [] \OT1/cmss/m/n/10.95 = [][] + [][] + [][] = []
  []
 
@@ -1227,15 +1254,15 @@ Package epstopdf Info: Source file: <Figures/Poisson1D.eps>
 (epstopdf)                    size: 12366 bytes
 (epstopdf)             Command: <repstopdf --outfile=Figures/Poisson1D-eps-conv
 erted-to.pdf Figures/Poisson1D.eps>
-(epstopdf)             \includegraphics on input line 269.
+(epstopdf)             \includegraphics on input line 244.
 Package epstopdf Info: Output file is already uptodate.
 
-<Figures/Poisson1D-eps-converted-to.pdf, id=937, 429.605pt x 312.16624pt>
+<Figures/Poisson1D-eps-converted-to.pdf, id=944, 429.605pt x 312.16624pt>
 File: Figures/Poisson1D-eps-converted-to.pdf Graphic file (type pdf)
 
 <use Figures/Poisson1D-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/Poisson1D-eps-converted-to.pdf used on input l
-ine 269.
+ine 244.
 (pdftex.def)             Requested size: 307.28987pt x 223.29243pt.
  [35
 
@@ -1274,14 +1301,14 @@ LaTeX Font Info:    Font shape `OML/pcr/m/n' in size <9> not available
 ) [46
 
 ]
-<Figures/Laplace2D.pdf, id=1252, 794.97pt x 614.295pt>
+<Figures/Laplace2D.pdf, id=1259, 794.97pt x 614.295pt>
 File: Figures/Laplace2D.pdf Graphic file (type pdf)
 
 <use Figures/Laplace2D.pdf>
-Package pdftex.def Info: Figures/Laplace2D.pdf used on input line 418.
+Package pdftex.def Info: Figures/Laplace2D.pdf used on input line 393.
 (pdftex.def)             Requested size: 307.28987pt x 237.45569pt.
 
-Overfull \vbox (4.18257pt too high) detected at line 418
+Overfull \vbox (4.18257pt too high) detected at line 393
  []
 
 [47
@@ -1298,11 +1325,11 @@ Overfull \vbox (4.18257pt too high) detected at line 418
 \tf@snm=\write8
 \openout8 = `PoissonSolver.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 426.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 426.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 401.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 401.
  (./PoissonSolver.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 426.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 426.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 401.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 401.
 Package rerunfilecheck Info: File `PoissonSolver.out' has not changed.
 (rerunfilecheck)             Checksum: 22CE78C6C2005F80C164E6E4A0D9D71A;150.
 
@@ -1310,16 +1337,16 @@ Package rerunfilecheck Info: File `PoissonSolver.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 426.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 401.
  ) 
 Here is how much of TeX's memory you used:
- 19804 strings out of 494891
- 367476 string characters out of 6179040
- 446756 words of memory out of 5000000
- 22512 multiletter control sequences out of 15000+600000
+ 19816 strings out of 494891
+ 367833 string characters out of 6179040
+ 446891 words of memory out of 5000000
+ 22519 multiletter control sequences out of 15000+600000
  20722 words of font info for 77 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 48i,16n,51p,411b,1261s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,16n,51p,423b,1261s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist
@@ -1336,10 +1363,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/
 texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on PoissonSolver.pdf (48 pages, 591073 bytes).
+Output written on PoissonSolver.pdf (48 pages, 602510 bytes).
 PDF statistics:
- 1402 PDF objects out of 1440 (max. 8388607)
- 1298 compressed objects within 13 object streams
+ 1410 PDF objects out of 1440 (max. 8388607)
+ 1302 compressed objects within 14 object streams
  105 named destinations out of 1000 (max. 500000)
- 87 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

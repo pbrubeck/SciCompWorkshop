@@ -1,10 +1,10 @@
 \documentclass[xcolor={dvipsnames}]{beamer}
-\usetheme{default}
-\usepackage{amsmath, amssymb, upgreek, textcomp}
-\usepackage{graphicx, float, subcaption}
-\usepackage{hyperref}
-\usepackage[numbered]{mcode}
-\graphicspath{{Figures/}}
+\usepackage{../common/scicomp}
+\usepackage[numbered]{../common/mcode}
+
+\title{Introduction to Spectral Methods}
+\subtitle{Numerical Solution of Poisson's Equation}
+\date{October 7, 2016}
 
 \makeatletter
 \newcommand{\Spvek}[2][r]{%
@@ -25,31 +25,6 @@
 	\fi}
 \makeatother
 \newcommand{\trans}{\text{T}}
-
-
-\title{Introduction to Spectral Methods}
-\subtitle{Numerical Solution of Poisson's Equation}
-
-
-\author{Pablo Brubeck\inst{}}
-\institute[ITESM]{
-	\inst{}
-	Department of Physics\\
-	Tecnologico de Monterrey
-}
-
-\titlegraphic{
-	\includegraphics[width=3cm]{SPIELogo}
-}
-
-\date{October 7, 2016}
-\subject{Numerical Analysis}
-
-\AtBeginSection[]{
-	\begin{frame}<beamer>{Outline}
-		\tableofcontents[currentsection]
-	\end{frame}
-}
 
 \begin{document}
 

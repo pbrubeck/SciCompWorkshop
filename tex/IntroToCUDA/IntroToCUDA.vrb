@@ -1,0 +1,11 @@
+\frametitle{We forgot our data on the device,\\ we must take it back to the host.}
+\begin{lstlisting}
+// Must do this before passing data
+// from device to host
+cudaDeviceSynchronize();
+
+// Print the result
+for(int i=0; i<N; i++){
+   printf("%f\n", data[i]);
+}
+\end{lstlisting}

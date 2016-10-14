@@ -1,0 +1,18 @@
+\begin{thebibliography}{1}
+
+\bibitem{Pointers66:online}
+``{Pointers - C++ Tutorials}.''
+  \url{http://www.cplusplus.com/doc/tutorial/pointers/}.
+\newblock (Accessed on 10/11/2016).
+
+\bibitem{UnifiedM37:online}
+``Unified memory in cuda 6 | parallel forall.''
+  \url{https://devblogs.nvidia.com/parallelforall/unified-memory-in-cuda-6/}.
+\newblock (Accessed on 10/13/2016).
+
+\bibitem{Programm98:online}
+``Programming guide :: Cuda toolkit documentation.''
+  \url{https://docs.nvidia.com/cuda/cuda-c-programming-guide/}.
+\newblock (Accessed on 10/13/2016).
+
+\end{thebibliography}

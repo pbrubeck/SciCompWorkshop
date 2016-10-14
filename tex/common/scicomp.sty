@@ -1,0 +1,27 @@
+\usetheme{default}
+\usepackage{amsmath, amssymb, upgreek, textcomp}
+\usepackage{graphicx, float, subcaption}
+\usepackage{hyperref}
+\usepackage{listings}
+\graphicspath{{Figures/}}
+
+\author{Pablo Brubeck\inst{}}
+\institute[ITESM]{
+	\inst{}
+	Department of Physics\\
+	Tecnologico de Monterrey
+}
+
+\titlegraphic{
+	\includegraphics[height=0.1\textheight]{SPIELogo}
+	\hspace{0.1\linewidth}
+	\includegraphics[height=0.1\textheight]{OSALogo}
+}
+
+\subject{Scientific Computing}
+
+\AtBeginSection[]{
+	\begin{frame}<beamer>{Outline}
+		\tableofcontents[currentsection]
+	\end{frame}
+}

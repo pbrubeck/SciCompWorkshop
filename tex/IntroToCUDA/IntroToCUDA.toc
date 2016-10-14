@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\beamer@sectionintoc {1}{The basics}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Data types}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{Pointers}{7}{0}{1}
+\beamer@sectionintoc {2}{Parallel programming}{19}{0}{2}
+\beamer@subsectionintoc {2}{1}{Hardware}{23}{0}{2}
+\beamer@subsectionintoc {2}{2}{Parallel primitives}{30}{0}{2}
+\beamer@sectionintoc {3}{The CUDA programming model}{52}{0}{3}
+\beamer@subsectionintoc {3}{1}{Thread Hierarchy}{53}{0}{3}
+\beamer@subsectionintoc {3}{2}{Memory Hierarchy}{60}{0}{3}
+\beamer@subsectionintoc {3}{3}{Simple code example}{64}{0}{3}
